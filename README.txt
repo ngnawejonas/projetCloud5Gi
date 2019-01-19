@@ -1,0 +1,6 @@
+Nom des membres du groupe
+
+- DOKMEGANG KASSAP JOEL
+- NGNAWE JONAS
+- ULRICH HATMAN
+- AMIR AMADOU

@@ -1,0 +1,15 @@
+A-Pour creer les images:
+ 	1-se placer dans le dossier cloud (repertoire courant)
+	2-lancer le script images.build.sh en tant que superuser : $sudo sh images.build.sh
+	Vous verrez trois images: apache2:enspy, tomcat8jre8:enspy et mysqlserver:enspy
+	Remarque: si cela ne reussit relancer le script
+
+B-Pour l'architecture J2ee:
+	1-se placer dans le dossier cloud (repertoire courant)
+	2-Pour lancer l'architecture,lancer le script containers.launch.sh en tant que superuser avec le nombre de 
+containers tomcat en parametres : ex: $sudo sh containers.launch.sh 3 pour lancer 3 tomcats
+
+	3-Pour arreter l'architecture, lancer le script containers.launch.sh en tant que superuser:
+	$sh containers.stop.sh
+	
+	Remarque: arreter ne supprime pas les containers, il faut utiliser le script containers.clean.sh dans le dossier utils
